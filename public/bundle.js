@@ -26615,7 +26615,7 @@
 	      if (isLoading) {
 	        return React.createElement(
 	          'h3',
-	          null,
+	          { className: 'text-center' },
 	          'Fetching weather...'
 	        );
 	      } else if (temp && location) {
@@ -26669,7 +26669,7 @@
 	        React.createElement('input', { type: 'text', ref: 'location' }),
 	        React.createElement(
 	          'button',
-	          null,
+	          { className: 'expanded hollow button' },
 	          'Get Weather'
 	        )
 	      )
@@ -26683,7 +26683,7 @@
 /* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -26692,13 +26692,13 @@
 	      location = _ref.location;
 
 	  return React.createElement(
-	    'h3',
-	    null,
-	    'It\'s it ',
+	    "h3",
+	    { className: "text-center" },
+	    "It's it ",
 	    temp,
-	    ' in ',
+	    " in ",
 	    location,
-	    '.'
+	    "."
 	  );
 	};
 
