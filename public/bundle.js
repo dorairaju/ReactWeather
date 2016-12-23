@@ -26627,9 +26627,9 @@
 	      'div',
 	      null,
 	      React.createElement(
-	        'h3',
-	        null,
-	        'Weather Component'
+	        'h1',
+	        { className: 'text-center' },
+	        'Get weather'
 	      ),
 	      React.createElement(WeatherForm, { onSearch: this.handleSearch }),
 	      renderMessage()
